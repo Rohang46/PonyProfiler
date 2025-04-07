@@ -11,7 +11,7 @@ window = tk.Tk()
 w, h = window.winfo_screenwidth(), window.winfo_screenheight()
 window.geometry("%dx%d+0+0" % (w, h))
 window.title("REGISTRATION FORM")
-window.configure(background="grey")
+window.configure(background="green")
 
 Fullname = tk.StringVar()
 address = tk.StringVar()
@@ -153,7 +153,7 @@ def insert():
 #####For background Image
 
     
-image2 = Image.open('air1.jpg')
+image2 = Image.open('sampleimage.jpg')
 image2 = image2.resize((w,h), Image.LANCZOS)
 
 background_image = ImageTk.PhotoImage(image2)
